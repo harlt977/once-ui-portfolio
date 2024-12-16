@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Thomas',
+    lastName:  'Doan',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Senior Software Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'America/Los_Angeles',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: []  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -24,22 +24,22 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/santa512',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/tomvsdoan',
     },
     {
-        name: 'X',
-        icon: 'x',
-        link: '',
+        name: 'Telegram',
+        icon: 'telegram',
+        link: 'https://t.me/mickey1220',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:tomvsdoan@gmail.com',
     },
 ]
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Software Engineer and Game Changer </>,
+    subline: <>I'm Thomas Doan, a <InlineCode>Full Stack Engineer</InlineCode> sepcialized in building great software with smart solutions 😎</>
 }
 
 const about = {
@@ -64,12 +64,12 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com'
+        link: 'https://calendly.com/tomvsdoan/15min-meeting'
     },
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Skilled at simplifying complex challenges in all stages of development, including UI, backend, and infra - Contributed to great projects at leading tech companies as well as accelerating startup growth.</>
     },
     work: {
         display: true, // set to false to hide this section
@@ -109,12 +109,9 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
-            },
-            {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Chapman University',
+                timeframe: '2012 - 2016',
+                description: <>Bachelor of Computer Science</>,
             }
         ]
     },
